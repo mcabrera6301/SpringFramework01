@@ -7,9 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring01-SpringContainer" />
+        <module name="Spring-02-DI-ConstructorInjection" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="Spring-02-DI-ConstructorInjection" target="6" />
       <module name="Spring01-SpringContainer" target="6" />
     </bytecodeTargetLevel>
   </component>
